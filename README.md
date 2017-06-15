@@ -23,7 +23,7 @@ In this section we will cover the downloading and installing of `darknet`.
 #### CPU-Only Install
 To install the `CPU-Only` version of `darknet`, clone the git repository, switch to the `macOS` branch, and execute the `make` command as follows:
 ```
-$ git clone https://github.com/RagingTiger/darknet.git
+$ git clone https://github.com/RagingTiger/darknet.git && cd darknet
 $ git checkout macos
 $ make
 ```
@@ -32,7 +32,7 @@ After many lines of compiler output, you should have an executable file named `d
 #### CPU + GPU Install
 To install `darknet` with GPU support, you will first need to install CUDA. [*Visit this site for more details and guidance on installing CUDA for macOS*](https://github.com/RagingTiger/CUDAInstall). After successfully installing CUDA, you will simply need to clone the git repository, switch to the `macos-gpu` branch, and execute `make` as follows:
 ```
-$ git clone https://github.com/RagingTiger/darknet.git
+$ git clone https://github.com/RagingTiger/darknet.git && cd darknet
 $ git checkout macos-gpu
 $ make
 ```
