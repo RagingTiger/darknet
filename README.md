@@ -36,4 +36,5 @@ $ git clone https://github.com/RagingTiger/darknet.git
 $ git checkout macos-gpu
 $ make
 ```
-Like the `CPU-Only` install, you should now have a `darknet` executable sitting in your repository. Visit https://pjreddie.com/darknet/yolo/ and try out some of the examples!
+*Remember to set your [CUDA environment variables](https://github.com/RagingTiger/CUDAInstall#cuda-environment-variables), otherwise you will have compilation problems when the compiler cannot find the CUDA libraries*.
+Compilation errors aside, you should now have a `darknet` executable sitting in your repository. Visit https://pjreddie.com/darknet/yolo/ and try out some of the examples!
